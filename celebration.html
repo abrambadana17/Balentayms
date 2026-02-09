@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Love You! 💖</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>❤️</text></svg>">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         * {
@@ -128,6 +129,24 @@
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         }
 
+        .subtitle {
+            font-size: 14px;
+            color: #636e72;
+            margin-top: 30px;
+            line-height: 1.4;
+            font-weight: 300;
+        }
+
+        .subtitle a {
+            color: #d63031;
+            text-decoration: none;
+            font-weight: 400;
+        }
+
+        .subtitle a:hover {
+            text-decoration: underline;
+        }
+
         /* Confetti */
         .confetti {
             position: fixed;
@@ -173,6 +192,10 @@
                 width: 150px;
                 height: 150px;
             }
+
+            .subtitle {
+                font-size: 12px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -192,6 +215,10 @@
                 width: 120px;
                 height: 120px;
             }
+
+            .subtitle {
+                font-size: 11px;
+            }
         }
     </style>
 </head>
@@ -204,6 +231,9 @@
         <p>You're the best thing that ever happened to me, I appreciate you so much.</p>
         <p>Thank you for making me the happiest person alive!</p>
         <p class="love-message">I love you so much! ❤️✨</p>
+        <p class="subtitle">
+            If you said yes, please reply to: <a href="https://mail.google.com/mail/?view=cm&to=abrambadana17@gmail.com" target="_blank">abrambadana17@gmail.com</a>
+        </p>
     </div>
 
     <script>
